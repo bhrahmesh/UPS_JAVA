@@ -41,7 +41,7 @@ public class ticker {
                             price = 140 * seats - (140 * seats * 30 / 100);
                         } else {
                             System.out.print("Invalid seat count or seat count exceeded ");
-                            return; 
+                            return;
                         }
                     }
                     break;
@@ -225,7 +225,7 @@ public class ticker {
             return;
         }
 
-        System.out.println("Total Price: " + price);
+        System.out.println("Total Price: " + price + "$");
         sc.close();
     }
 }
