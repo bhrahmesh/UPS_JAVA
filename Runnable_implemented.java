@@ -45,16 +45,18 @@ public static void main(String[] args) {
             }
         }
     });
-    t3.start();
-    try{
+    t2.start();
+     try{
         Thread.sleep(1000);
 
     }
     catch( Exception e){
         throw new RuntimeException(e);
     }
+    t3.start();
+   
 
-    t2.start();
+    
 
 
 
